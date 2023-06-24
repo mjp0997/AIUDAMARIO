@@ -72,9 +72,11 @@ export const BannerCardContentContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   top: 0;
-  right: 0px;
+  right: 50%;
   bottom: 0;
   left: 0;
+
+  padding: 0 0 0 25px;
 `;
 export const HomeBannerContainer = styled.div`
   width: 100%;

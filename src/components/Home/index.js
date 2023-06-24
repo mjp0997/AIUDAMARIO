@@ -15,11 +15,11 @@ const Home = () => {
       <Hero />
 
       <HomeContainerBanners
-        templateareas={`"1 2"`}
+        templateareas={`"a1 a2"`}
         templatecolumns="repeat(2, 1fr)"
       >
         <HomeBanner
-          area="1"
+          area="a1"
           bannerIMG="/images/HomeBanners/GamerDude.svg"
           topText="Feria del GAMER"
           bottomText="hasta 50% de descuento"
@@ -30,7 +30,7 @@ const Home = () => {
           BackgroundColorButton="#FFF"
         />
         <HomeBanner
-          area="2"
+          area="a2"
           bannerIMG="/images/HomeBanners/fashionGirlsBanner.png"
           topText="Sé única"
           bottomText="hasta 67% de descuento"
@@ -51,11 +51,11 @@ const Home = () => {
       </HomeCategoryContainer>
 
       <HomeContainerBanners
-        templateareas={`"1 1 2 3"`}
+        templateareas={`"a1 a1 a2 a3"`}
         templatecolumns="repeat(4, 1fr)"
       >
         <HomeBanner
-          area="1"
+          area="a1"
           bannerIMG="/images/HomeBanners/makeup.png"
           topText="Descúbrete"
           bottomText="hasta 63% de descuento"
@@ -66,7 +66,7 @@ const Home = () => {
           BackgroundColorButton="#5B19AE"
         />
         <HomeBanner
-          area="2"
+          area="a2"
           bannerIMG="/images/HomeBanners/manClothes.png"
           topText=""
           bottomText=""
@@ -77,7 +77,7 @@ const Home = () => {
           BackgroundColorButton="#5B19AE"
         />
         <HomeBanner
-          area="3"
+          area="a3"
           bannerIMG="/images/HomeBanners/babyClothes.png"
           topText=""
           bottomText=""
@@ -94,11 +94,11 @@ const Home = () => {
       </HomeBannerContainer>
 
       <HomeContainerBanners
-        templateareas={`"1 2 3"`}
-        templatecolumns="repeat(3, 1fr)"
+        templateareas={`"a1 a2 a3 a3"`}
+        templatecolumns="repeat(4, 1fr)"
       >
         <HomeBanner
-          area="1"
+          area="a1"
           bannerIMG="/images/HomeBanners/watch.png"
           topText=""
           bottomText=""
@@ -109,7 +109,7 @@ const Home = () => {
           BackgroundColorButton="#5B19AE"
         />
         <HomeBanner
-          area="2"
+          area="a2"
           bannerIMG="/images/HomeBanners/tvControl.png"
           topText=""
           bottomText=""
@@ -120,7 +120,7 @@ const Home = () => {
           BackgroundColorButton="#5B19AE"
         />
         <HomeBanner
-          area="3"
+          area="a3"
           bannerIMG="/images/HomeBanners/cellphone.png"
           topText="Celulares"
           bottomText="hasta 49% de descuento"
@@ -141,11 +141,11 @@ const Home = () => {
       </HomeCategoryContainer>
 
       <HomeContainerBanners
-        templateareas={`"1 2"`}
+        templateareas={`"a1 a2"`}
         templatecolumns="repeat(2, 1fr)"
       >
         <HomeBanner
-          area="1"
+          area="a1"
           bannerIMG="/images/HomeBanners/shoes.png"
           topText="Confianza audaz"
           bottomText="hasta 57% de descuento"
@@ -156,7 +156,7 @@ const Home = () => {
           BackgroundColorButton="#5B19AE"
         />
         <HomeBanner
-          area="2"
+          area="a2"
           bannerIMG="/images/HomeBanners/excerciseMaterials.png"
           topText="Deporte"
           bottomText="hasta 82% de descuento"
@@ -177,11 +177,11 @@ const Home = () => {
       </HomeCategoryContainer>
 
       <HomeContainerBanners
-        templateareas={`"1 1 2 3"`}
+        templateareas={`"a1 a1 a2 a3"`}
         templatecolumns="repeat(4, 1fr)"
       >
         <HomeBanner
-          area="1"
+          area="a1"
           bannerIMG="/images/HomeBanners/pets.png"
           topText="Mascotas"
           bottomText="hasta 64% de descuento"
@@ -192,7 +192,7 @@ const Home = () => {
           BackgroundColorButton="#5B19AE"
         />
         <HomeBanner
-          area="2"
+          area="a2"
           bannerIMG="/images/HomeBanners/wheel.png"
           topText=""
           bottomText=""
@@ -203,7 +203,7 @@ const Home = () => {
           BackgroundColorButton="#5B19AE"
         />
         <HomeBanner
-          area="3"
+          area="a3"
           bannerIMG="/images/HomeBanners/blender.png"
           topText=""
           bottomText=""
